@@ -16,6 +16,16 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
-
+.idea
+/config/application.yml
+/config/secrets.yml
+/config/database.yml
+public/uploads
+/config/initializers/mandril.rb
+#urbanairship.log
 # Ignore Byebug command history file.
-.byebug_history
+#.byebug_history
+#.DS_Store
+#db/secondbase/
+# Ignore Byebug command history file.
+#.byebug_history
